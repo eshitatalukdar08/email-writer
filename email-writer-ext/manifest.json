@@ -8,7 +8,7 @@
     "storage"
   ],
   "host_permissions": [
-    "https://localhost:8080/*",
+    "https://email-writer-u34y.onrender.com/*",
     "https://mail.google.com/*"
   ],
   "content_scripts": [
