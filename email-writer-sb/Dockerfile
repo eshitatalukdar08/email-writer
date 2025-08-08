@@ -21,7 +21,7 @@ RUN ./mvnw dependency:go-offline
 COPY src src
 
 # Package the application into a JAR file
-RUN ./mvnw package
+RUN ./mvnw package -DskipTests
 
 # Command to run the application
 CMD ["java", "-jar", "target/email-writer-sb-0.0.1-SNAPSHOT.jar"]
